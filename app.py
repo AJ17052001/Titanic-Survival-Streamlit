@@ -9,7 +9,7 @@ from sklearn.metrics import classification_report, accuracy_score, confusion_mat
 
 # Page Config
 st.set_page_config(page_title="Titanic Survival Predictor", layout="wide")
-st.title("🚢 Titanic Survival Classification Dashboard")
+st.title(" Titanic Survival Classification Dashboard")
 
 # 1. Load and Preprocess Dataset
 @st.cache_data
